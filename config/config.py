@@ -10,18 +10,18 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "11796331"))
 API_HASH = getenv("API_HASH", "a089161b52f234bb90a6eb915551e8c0")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5971927726:AAHzz4rT4XPBf45gXjTH4eMhFXzRkgqJDLk")
+BOT_TOKEN = getenv("BOT_TOKEN", "5663640542:AAHBqu3DueQoH9-tuxOPlGaq6HqILxTayzs")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://pikachu:randi@cluster0.tndvlel.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001772857132"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "CRAXY ダ ᴍᴜsɪᴄ")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Iro ダ ᴍᴜsɪᴄ")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", " 5518757491").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Iro09/CRAXY")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Iro09/ramdi")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
@@ -60,7 +60,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "AQBFbn5RuBnP645-t8XOVfR3GWl5hfMDOpQxJ82r93qX4IPdlwKpWKCru2nSvcNOLxmh67jEQiLyzt1RaQYry7koA42_hVfFQBrFv_gFGdJPnhGUFSQLinnMIsHFAGf8u4Tv5CbvSaEAKUvMWweO3_8YKtL0jjZ12hW3U58e3JA6yo0DydfBuY-LfPyKzJjEy6MoL8Lr33A_ioBi8KTqWtCd20sVGmJNj2X691jrCcGAz_sK9SphL_sN1ZcfDbxLKQKjPdzIX4Uq7cQn8u3b-u7ySb46WmKXq8aNfarJ4-r1iXx6nDxgkKEYTa5oVvYF0Huviwr0U-B1nFz3m74n2nM2AAAAAVavEOYA")
+STRING1 = getenv("STRING_SESSION", "AQBpbj3FU3cMWIyqin1KkULnAyISGHDrMzONRF0RNjy6O4fzMupxhSfuCnLHoTD9gaXnPAQcPfv4QIYwj5Qb-rOtraKv2HUk2RCHkHSnzs8TAsazwicDnwxDGgPXDIJtemnqcCqA_oPDz-P_cPBZvDjY0ze7q-W3UkvMBk3mbsDBXeikinaYinKX9I5x6w2xn8awAbp4gosKShV0JP_CwfzqQbk-KrAQPL5i2hALeH-HnjdQKzqxixrPf2fcPQWM2MDVcSy3Bnuv-JIh_K5nvYrXrtMJz-LuXet35pU9epotu1QSNdEnCeHPqueAbEQVPiNM8K_yHXdNfkP3WDM8RlZJAAAAAVjl4XgA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -69,7 +69,7 @@ STRING5 = getenv("STRING_SESSION5", None)
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
 LOG = 2
-LOG_FILE_NAME = "CRAXY.txt"
+LOG_FILE_NAME = "Iro.txt"
 adminlist = {}
 lyrical = {}
 chatstats = {}
