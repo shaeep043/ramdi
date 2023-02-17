@@ -22,4 +22,5 @@ tgcrypto
 numpy
 youtube-search
 youtube-search-python
+git+https://github.com/ytdl-patched/yt-dlp
 yt-dlp
